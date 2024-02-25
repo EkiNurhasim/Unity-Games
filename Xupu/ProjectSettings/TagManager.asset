@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - End
+  - Enemy
+  - Key
+  - KeySatu
+  - KeyDua
+  - KeyTiga
+  - Bullet
+  - Bgm
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Bullet
+  - key
+  - keysatu
+  - keydua
+  - keytiga
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3381269081
+    locked: 0
+  - name: midground
+    uniqueID: 3288274997
+    locked: 0
+  - name: foreground
+    uniqueID: 1159189713
+    locked: 0

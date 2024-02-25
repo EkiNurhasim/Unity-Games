@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1304091833640148}
+  m_IsPrefabAsset: 1
+--- !u!1 &1304091833640148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4668011208357028}
+  - component: {fileID: 114538776409590492}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668011208357028
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304091833640148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114538776409590492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304091833640148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88d7e0c3a4bc1f468362c805695336e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manual:
+  - {fileID: 1911578890584350, guid: 7838d26ba9a236043aed17ab4477a67a, type: 2}
+  - {fileID: 1970531531551458, guid: c9111bffea2ab3d4892436aa3761fedb, type: 2}
+  - {fileID: 1877730235550242, guid: 9d577a293d8ffd44caedc9e00bf9908c, type: 2}
+  - {fileID: 1300410287861284, guid: 8f325a8a5d2ae004599ff839cbe42ebc, type: 2}
+  joy: {fileID: 1283740023378262, guid: ab999ac7217adaf4c998b16ea1a7ec75, type: 2}
+  dashSprite: {fileID: 114101566515821692, guid: f2ac51093c846044fab637e198074003,
+    type: 2}
+  sprite:
+  - {fileID: 21300000, guid: cf9fab8a3b395d64ca33d668e413dd3a, type: 3}
+  - {fileID: 21300000, guid: 0a43bc888a5bbac418c337940f007057, type: 3}
+  joystickController: 0
+  manualController: 0
